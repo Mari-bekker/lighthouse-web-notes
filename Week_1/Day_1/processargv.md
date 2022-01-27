@@ -1,0 +1,1 @@
+process.argv is an array containing all the command line arguments used to execute our code, including the interpreter node. 
