@@ -1,0 +1,32 @@
+# Different types of testing: 
+
+## Unit Testing: 
+
+- Unit testing is the practice of testing small pieces of code, typically individual functins, alone and isolated. 
+
+- If a test uses some external resources, like the network or a database, it's not a unit test. 
+- Examples of unit testing tools: Mocha, Jasmine, and Tape. 
+
+## Integration Testing: 
+
+- testing how parts of the system work together - an integration of the parts. 
+- You should have fewer integration tests than unit tests. 
+- Use these when need to test 2 separate systems together, or if a pieace of code is too complext to unit test. 
+
+## Functional testing:
+
+- Also called E2E testing or browser testing. Same thing. 
+- Testing the complete functionality of the application. 
+- Using some tool to automate the browser. 
+- Only a small amount of functional tests. 
+- These are hard to maintain due to high complexity but also run very slowly. 
+
+- Examples: Selenium. Protractor. 
+
+# Mocha and Chai
+
+Mocha is the library that allows us to run tests and chai contains some helpful functions that we'll use to verify our results. 
+
+For Node, you don’t need the test runner file.
+To include Chai, add var chai = require('chai'); at the top of the test file.
+
